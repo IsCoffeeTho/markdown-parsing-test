@@ -1,0 +1,58 @@
+body {
+	background-color: #111;
+	color : #fff;
+	height: 100vh;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	display: flex;
+	height: 100%;
+}
+
+.content>* {
+	width : 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+textarea {
+	resize: none;
+	background-color: #222;
+	color : #fff;
+}
+
+.output-content>div {
+	margin : 3px;
+}
+
+.output-content h1,.output-content h2,.output-content h3 {
+	border-bottom : 1px solid #888;
+}
+
+blockquote {
+	border-left : 3px solid white;
+	padding : 0.5em;
+	background : #fff2;
+}
+
+code {
+	background-color: #000;
+}
+
+pre {
+	display: block;
+	background-color : #000;
+}
+
+.tree_child {
+	border-left : 1px solid white;
+	margin-left : 1em;
+}
+
+.ERROR {
+	color : #faa;
+	background: #a00;
+}
