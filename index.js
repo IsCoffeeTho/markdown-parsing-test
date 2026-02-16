@@ -1,7 +1,7 @@
 import { Parser, Language } from "./treesitter/web-tree-sitter.js";
 
 Parser.init().then(async () => {
-	const lang = await Language.load(`/treesitter/langs/markdown.wasm`);
+	const lang = await Language.load(`./treesitter/langs/markdown.wasm`);
 	const parser = new Parser();
 	parser.setLanguage(lang);
 
