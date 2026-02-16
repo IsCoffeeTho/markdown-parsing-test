@@ -38,18 +38,30 @@ blockquote {
 	background : #fff2;
 }
 
-code {
+.monospace, .monospace-inline {
+	display: inline;
+	font-family: monospace;
 	background-color: #000;
+	color: #fff;
+	padding : 5px;
+	border : 1px solid #222;
+	border-radius: 5px;
 }
 
-pre {
+.monospace {
 	display: block;
-	background-color : #000;
+	padding : 15px;
+	border : 3px solid #222;
+	border-radius: 15px;
 }
 
 .tree_child {
 	border-left : 1px solid white;
 	margin-left : 1em;
+}
+
+a {
+	color : #aaf;
 }
 
 .ERROR {
