@@ -15,6 +15,7 @@ Parser.init().then(async () => {
 
 	function makeEdit() {
 		tree = parser.parse(inputPane.value);
+		
 		updateOutput();
 	}
 	inputPane.addEventListener("input", makeEdit);
